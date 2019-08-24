@@ -1,3 +1,17 @@
+# 이것은 코멘트
+# 커밋 무시할 파일 또는 폴더를 넣어주세요.
+# 파일이름을 넣으면 모든 디렉토리에서 해당 파일 무시
+Evil_Fi/Intermediate/CachedAssetRegistry*
+
+# /로 끝나면 해당 디렉토리 전체를 무시
+Evil_Fi/Saved/
+Evil_Fi/Intermediate/AssetRegistryCache
+Evil_Fi/Intermediate/ReimportCache
+Evil_Fi/Intermediate/Build
+Evil_Fi/Intermediate/Config
+Evil_Fi/Intermediate/ProjectFiles/UE4.vcxproj.filters
+Evil_Fi/Intermediate/ProjectFiles/UE4.vcxproj
+
 # Visual Studio 2015 user specific files
 .vs/
 
