@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Evil_Fi.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C37D84AF-DA6B-41DD-A602-45CA16FF6BDE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Evil_Fi.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Evil_FiEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4DDB83E8-C145-40AB-A0A2-7DCE567B78DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Evil_Fi">
+      <UniqueIdentifier>{08D00ADD-B787-4949-BCA8-C5DC9A368E99}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Evil_Fi\Evil_Fi.Build.cs">
+      <Filter>Source\Evil_Fi</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Evil_Fi\Evil_Fi.cpp">
+      <Filter>Source\Evil_Fi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\Evil_Fi.h">
+      <Filter>Source\Evil_Fi</Filter>
+    </ClInclude>
+    <Filter Include="Source\Evil_Fi\Common">
+      <UniqueIdentifier>{23857F76-A7E3-41DE-86C0-5CAB9EC4B768}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameType.h">
+      <Filter>Source\Evil_Fi\Common</Filter>
+    </ClInclude>
+    <Filter Include="Source\Evil_Fi\Contents">
+      <UniqueIdentifier>{2BA62214-088D-496D-9589-C72B2E2E4DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Evil_Fi\Contents\Character">
+      <UniqueIdentifier>{7389B4A4-45C7-4937-9FF5-A8FE8AFE527D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Evil_FiCharacter.cpp">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Character\Evil_FiCharacter.h">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Evil_Fi\Controller">
+      <UniqueIdentifier>{4030C1FC-81F9-4FB5-8FFA-0A24FE050A77}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Evil_Fi\Controller\BasePlayerController.cpp">
+      <Filter>Source\Evil_Fi\Controller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\Controller\BasePlayerController.h">
+      <Filter>Source\Evil_Fi\Controller</Filter>
+    </ClInclude>
+    <Filter Include="Source\Evil_Fi\GameMode">
+      <UniqueIdentifier>{D07A7D6D-476D-471F-9B0A-1383FA48A3B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Evil_Fi\GameMode\Evil_FiGameMode.cpp">
+      <Filter>Source\Evil_Fi\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\GameMode\Evil_FiGameMode.h">
+      <Filter>Source\Evil_Fi\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\Evil_Fi\Manager">
+      <UniqueIdentifier>{8B92A869-B6DB-4824-85AE-B3A97205CE52}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Evil_Fi\Manager\ActorManager.cpp">
+      <Filter>Source\Evil_Fi\Manager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\Manager\ActorManager.h">
+      <Filter>Source\Evil_Fi\Manager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Evil_Fi\Manager\ResourceManager.cpp">
+      <Filter>Source\Evil_Fi\Manager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Evil_Fi\Manager\ResourceManager.h">
+      <Filter>Source\Evil_Fi\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
