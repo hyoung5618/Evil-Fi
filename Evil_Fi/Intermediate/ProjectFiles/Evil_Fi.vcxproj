@@ -365,6 +365,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp" />
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h" />
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h" />
     <None Include="..\..\Evil_Fi.uproject" />
     <None Include="..\..\Source\Evil_Fi.Target.cs" />

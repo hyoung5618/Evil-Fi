@@ -128,5 +128,8 @@
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h">
+      <Filter>Source\Evil_Fi\Common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
