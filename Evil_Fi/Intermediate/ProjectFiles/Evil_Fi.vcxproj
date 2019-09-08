@@ -364,10 +364,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\Evil_Fi-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClInclude Include="Test.h" />
-=======
->>>>>>> b0d1ec9baaf5cf710789bc1b4d95f1e3c2430d78
+    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp" />
+    <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h" />
     <None Include="..\..\Evil_Fi.uproject" />
     <None Include="..\..\Source\Evil_Fi.Target.cs" />
     <None Include="..\..\Source\Evil_FiEditor.Target.cs" />
@@ -378,10 +376,6 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Evil_Fi\Evil_Fi.Build.cs" />
     <ClCompile Include="..\..\Source\Evil_Fi\Evil_Fi.cpp" />
-<<<<<<< HEAD
-=======
-    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h" />
->>>>>>> b0d1ec9baaf5cf710789bc1b4d95f1e3c2430d78
     <ClInclude Include="..\..\Source\Evil_Fi\Evil_Fi.h" />
     <ClInclude Include="..\..\Source\Evil_Fi\Common\GameType.h" />
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Evil_FiCharacter.cpp" />

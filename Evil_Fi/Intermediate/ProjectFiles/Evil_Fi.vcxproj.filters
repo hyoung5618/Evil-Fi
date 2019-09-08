@@ -115,8 +115,18 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h">
-      <Filter>Source\Evil_Fi\Common</Filter>
+    <Filter Include="Source\Evil_Fi\UI">
+      <UniqueIdentifier>{a93c2ab8-c7d3-40d2-85ff-c8234ee875a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
+      <Filter>Source\Evil_Fi\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
+      <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
