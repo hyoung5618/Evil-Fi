@@ -8,31 +8,31 @@ class ActorManager : public TSingleton<ActorManager>
 public:
 
 	template<typename T>
-	bool CreateActor(UWorld* pWorld, FName strName, const FVector& Location, const FRotator& Rotation)
+	T* CreateActor(UWorld* pWorld, FName strName, const FVector& Location = FVector(0.f, 0.f, 0.f), const FRotator& Rotation = FRotator(0.f, 0.f, 0.f))
 	{
 		if (pWorld == nullptr)
-			return false;
+			return nullptr;
 
 		FActorSpawnParameters SPAWNPARAMETER;
 		SPAWNPARAMETER.Name = strName;
-		AActor* pActor = pWorld->SpawnActor<T>(Location, Rotation, SPAWNPARAMETER);
+		T* pActor = pWorld->SpawnActor<T>(Location, Rotation, SPAWNPARAMETER);
 
 		if (pActor) {
 			TArray<TSharedPtr<AActor>>* pArrActor = m_mapActorArry.Find(strName);
 			if (pArrActor == nullptr)
 			{
 				TArray<TSharedPtr<AActor>> arrActor;
-				arrActor.Add(MakeShareable(pActor));
+				arrActor.Add(MakeShareable<AActor>(pActor));
 				m_mapActorArry.Emplace(strName, arrActor);
 			}
 			else
 			{
-				pArrActor->Add(MakeShareable(pActor));
+				pArrActor->Add(MakeShareable<AActor>(pActor));
 			}
-			return true;
+			return pActor;
 		}
 
-		return false;
+		return nullptr;
 	}
 
 	void DeleteActor()
