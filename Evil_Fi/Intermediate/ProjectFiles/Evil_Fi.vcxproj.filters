@@ -114,4 +114,9 @@
       <Filter>Source\Evil_Fi\Manager</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h">
+      <Filter>Source\Evil_Fi\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
