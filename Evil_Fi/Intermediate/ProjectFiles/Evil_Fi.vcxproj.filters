@@ -123,6 +123,9 @@
     <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Evil_Fi\Manager\SoundManager.cpp">
+      <Filter>Source\Evil_Fi\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
@@ -130,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h">
       <Filter>Source\Evil_Fi\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Evil_Fi\Manager\SoundManager.h">
+      <Filter>Source\Evil_Fi\Manager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
