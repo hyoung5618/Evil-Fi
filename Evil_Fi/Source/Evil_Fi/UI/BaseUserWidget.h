@@ -66,38 +66,38 @@ public:
 	<클래스 지정자>
 	https://docs.unrealengine.com/ko/Programming/UnrealArchitecture/Reference/Classes/Specifiers/index.html
 */
-UCLASS(Config = Game)
-class EVIL_FI_API UBaseUserWidget : public UUserWidget
-{
-	GENERATED_BODY()
-	
-public:
-	virtual void SetWidgetName(const FString& strWidgetName) {}
-
-protected:
-	//virtual void NativeConstruct() override;
-	virtual void NativeSetupInput();
-
-	void BindNewActionCallBacks(TArray<FActionInputCallbackConfig> arrCallbackConfigs);
-	void UnbindActionCallBacks(TArray<FActionInputCallbackConfig> arrCallbackConfigs);
-	
-	void BindNewAxisCallBacks(TArray<FAxisInputCallbackConfig> arrCallbackConfigs);
-
-	// UFUNCTION(BlueprintImplementableEvent) : 이 함수는 블루프린트 또는 레벨 블루프린트 그래프에서 구현할 수 있습니다.
-	//UFUNCTION(BlueprintImplementableEvent, Category = "Inventory")
-	//void SetupInputForBlueprint();
-
-public:
-	UFUNCTION(BlueprintCallable, Category = "UI")
-	void ListenForInputAxis(FName AxisName, float fScale, bool bConsume/*, FOnInputAxis Callback*/);
-
-	//UFUNCTION(BlueprintCallable, Category = "UI");
-	//float GetRawKeyValue(/*FKey InKey*/);
-
-	//UFUNCTION(BlueprintCallable, Category = "Input");
-	//void StopListeningForAllInputAxises();
-
-	void OnInputAxis(float Scale/*, FOnInputAxis CallBack*/);
-
-
-};
+//UCLASS(Config = Game)
+//class EVIL_FI_API UBaseUserWidget : public UUserWidget
+//{
+//	GENERATED_BODY()
+//	
+//public:
+//	virtual void SetWidgetName(const FString& strWidgetName) {}
+//
+//protected:
+//	//virtual void NativeConstruct() override;
+//	virtual void NativeSetupInput();
+//
+//	void BindNewActionCallBacks(TArray<FActionInputCallbackConfig> arrCallbackConfigs);
+//	void UnbindActionCallBacks(TArray<FActionInputCallbackConfig> arrCallbackConfigs);
+//	
+//	void BindNewAxisCallBacks(TArray<FAxisInputCallbackConfig> arrCallbackConfigs);
+//
+//	// UFUNCTION(BlueprintImplementableEvent) : 이 함수는 블루프린트 또는 레벨 블루프린트 그래프에서 구현할 수 있습니다.
+//	//UFUNCTION(BlueprintImplementableEvent, Category = "Inventory")
+//	//void SetupInputForBlueprint();
+//
+//public:
+//	UFUNCTION(BlueprintCallable, Category = "UI")
+//	void ListenForInputAxis(FName AxisName, float fScale, bool bConsume/*, FOnInputAxis Callback*/);
+//
+//	//UFUNCTION(BlueprintCallable, Category = "UI");
+//	//float GetRawKeyValue(/*FKey InKey*/);
+//
+//	//UFUNCTION(BlueprintCallable, Category = "Input");
+//	//void StopListeningForAllInputAxises();
+//
+//	void OnInputAxis(float Scale/*, FOnInputAxis CallBack*/);
+//
+//
+//};
