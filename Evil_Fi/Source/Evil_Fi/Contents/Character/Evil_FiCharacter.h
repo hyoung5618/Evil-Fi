@@ -9,7 +9,7 @@
 UCLASS(config=Game)
 class AEvil_FiCharacter : public ACharacter
 {
-	GENERATED_BODY()
+	GENERATED_BODY()	
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -57,6 +57,17 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+public:
+	UPROPERTY(EditAnywhere, Category=Pawn)
+	UAnimSequenceBase* m_pAnimSequence_Skill_1;
+
+protected:
+	// Use Skill
+	void UseSkill_1();
+	void UseSkill_2();
+	void UseSkill_3();
+	void UseSkill_4();
 
 protected:
 	// APawn interface

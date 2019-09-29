@@ -132,4 +132,28 @@
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Evil_Fi\Contents\ProjectTile">
+      <UniqueIdentifier>{5d26b6c4-decb-4bd8-a447-0dd294564068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Evil_Fi\Contents\ProjectTile\Skills">
+      <UniqueIdentifier>{4883849c-1864-4d7c-a1dc-165d4ec8a17a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\ProjectTile\ProjectTileBase.h">
+      <Filter>Source\Evil_Fi\Contents\ProjectTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\ProjectTile\Skills\TestFireSkill.h">
+      <Filter>Source\Evil_Fi\Contents\ProjectTile\Skills</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\ProjectTile\ProjectTileBase.cpp">
+      <Filter>Source\Evil_Fi\Contents\ProjectTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\ProjectTile\Skills\TestFireSkill.cpp">
+      <Filter>Source\Evil_Fi\Contents\ProjectTile\Skills</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
