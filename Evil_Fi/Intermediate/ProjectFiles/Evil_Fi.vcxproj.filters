@@ -132,4 +132,14 @@
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Character\Monster.h">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Monster.cpp">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
