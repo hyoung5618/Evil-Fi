@@ -166,10 +166,16 @@
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Character\Monster.h">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
       <Filter>Source\Evil_Fi\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Monster.cpp">
+      <Filter>Source\Evil_Fi\Contents\Character</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

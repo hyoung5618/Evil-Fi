@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{979DA5CF-EB21-417E-B673-001436CE80F5}</ProjectGuid>
+    <ProjectGuid>{6F4C937A-E9F8-4B06-B624-5E25647BAE59}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Evil_Fi</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -364,7 +364,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\Evil_Fi-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Monster.cpp" />
     <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp" />
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Character\Monster.h" />
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h" />
     <None Include="..\..\Evil_Fi.uproject" />
     <None Include="..\..\Source\Evil_Fi.Target.cs" />
