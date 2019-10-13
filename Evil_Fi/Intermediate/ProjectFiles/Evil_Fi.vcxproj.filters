@@ -161,11 +161,15 @@
     <Filter Include="Source\Evil_Fi\UI">
       <UniqueIdentifier>{2F8DFF17-2259-4533-A42F-7B5F69227DA0}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
-      <Filter>Source\Evil_Fi\UI</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
       <Filter>Source\Evil_Fi\UI</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
+      <Filter>Source\Evil_Fi\UI</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
