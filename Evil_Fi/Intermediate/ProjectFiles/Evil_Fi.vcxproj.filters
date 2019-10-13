@@ -163,4 +163,14 @@
       <UniqueIdentifier>{C7ECD5A3-1BE3-4AA6-AF02-D1EFB461F532}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h">
+      <Filter>Source\Evil_Fi\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
+      <Filter>Source\Evil_Fi\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

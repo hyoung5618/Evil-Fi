@@ -463,6 +463,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\Evil_Fi-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp" />
+    <ClInclude Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.h" />
     <None Include="..\..\Evil_Fi.uproject" />
     <None Include="..\..\Source\Evil_Fi.Target.cs" />
     <None Include="..\..\Source\Evil_FiEditor.Target.cs" />
