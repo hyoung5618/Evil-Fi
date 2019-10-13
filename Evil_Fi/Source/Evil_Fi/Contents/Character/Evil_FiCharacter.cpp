@@ -67,6 +67,7 @@ void AEvil_FiCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AEvil_FiCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AEvil_FiCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("Wheel", this, &AEvil_FiCharacter::MouseWheel);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
@@ -206,4 +207,14 @@ void AEvil_FiCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AEvil_FiCharacter::MouseWheel(float Value)
+{
+	CameraBoom->TargetArmLength += Value * -30.0f;
+
+	if (CameraBoom->TargetArmLength > 500.0f)
+		CameraBoom->TargetArmLength = 500.0f;
+	if (CameraBoom->TargetArmLength < 0.0f)
+		CameraBoom->TargetArmLength = 0.0f;
 }
