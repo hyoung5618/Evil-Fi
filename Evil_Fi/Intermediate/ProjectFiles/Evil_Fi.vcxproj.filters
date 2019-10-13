@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\Evil_Fi.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FC77CDD0-01A2-4803-89A1-D780A8043614}</UniqueIdentifier>
+      <UniqueIdentifier>{DD92D82B-9AD5-4950-91FB-7BAAE31C239E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Evil_Fi.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\Evil_FiEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Evil_Fi.VC.db" />
     <Filter Include="Config">
-      <UniqueIdentifier>{AE610D3E-3859-4AEC-9086-C9810391AC39}</UniqueIdentifier>
+      <UniqueIdentifier>{52C15398-2716-4559-B7AA-02CB2A47EE9B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Evil_Fi">
-      <UniqueIdentifier>{09E97649-349D-4BE9-8C1D-3EFAABFED131}</UniqueIdentifier>
+      <UniqueIdentifier>{076886D7-CC58-4A1E-8DDE-DADDBEAD72DE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Evil_Fi\Evil_Fi.Build.cs">
       <Filter>Source\Evil_Fi</Filter>
@@ -42,7 +43,7 @@
       <Filter>Source\Evil_Fi</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Common">
-      <UniqueIdentifier>{42BAC78E-0C90-48D1-9EC3-85F453BD063B}</UniqueIdentifier>
+      <UniqueIdentifier>{7354AF08-7D14-412F-A5D4-BAA9D6CF84C6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Common\CommonLog.cpp">
       <Filter>Source\Evil_Fi\Common</Filter>
@@ -57,10 +58,10 @@
       <Filter>Source\Evil_Fi\Common</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Contents">
-      <UniqueIdentifier>{948DB7D0-2335-498C-B240-54EA6571C617}</UniqueIdentifier>
+      <UniqueIdentifier>{D5F64D2A-A2E3-45E9-87A4-231546C943AE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Evil_Fi\Contents\Character">
-      <UniqueIdentifier>{3DBFE6CF-FEB5-4F96-A515-6668B2EEBA5C}</UniqueIdentifier>
+      <UniqueIdentifier>{CF16429F-933D-42E6-8B29-2DEBF68E5C55}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Evil_FiCharacter.cpp">
       <Filter>Source\Evil_Fi\Contents\Character</Filter>
@@ -69,10 +70,10 @@
       <Filter>Source\Evil_Fi\Contents\Character</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Contents\Item">
-      <UniqueIdentifier>{E885A6EF-1BB1-45EE-ACF8-85093F47FE98}</UniqueIdentifier>
+      <UniqueIdentifier>{F7E9F78F-9213-466A-B3B5-9E61B2BACFFE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Evil_Fi\Contents\Item\Data">
-      <UniqueIdentifier>{B3278FF6-0BCA-4397-9994-45DD44C0F03D}</UniqueIdentifier>
+      <UniqueIdentifier>{9D59126E-F217-426E-A50F-369A9CC52821}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\Item\Data\DT_Item.cpp">
       <Filter>Source\Evil_Fi\Contents\Item\Data</Filter>
@@ -81,7 +82,7 @@
       <Filter>Source\Evil_Fi\Contents\Item\Data</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Contents\ProjectTile">
-      <UniqueIdentifier>{CD3E736E-99BF-47DD-9A26-A03F78E1F743}</UniqueIdentifier>
+      <UniqueIdentifier>{D2A4D4FA-8E73-4366-8405-DCB91E6CEC10}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\ProjectTile\ProjectTileBase.cpp">
       <Filter>Source\Evil_Fi\Contents\ProjectTile</Filter>
@@ -90,7 +91,7 @@
       <Filter>Source\Evil_Fi\Contents\ProjectTile</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Contents\ProjectTile\Skills">
-      <UniqueIdentifier>{FB476E54-312A-4B2B-984F-226C4EC0EC3F}</UniqueIdentifier>
+      <UniqueIdentifier>{EB45B905-61BD-40D3-8698-9CDCFF9767F4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\ProjectTile\Skills\TestFireSkill.cpp">
       <Filter>Source\Evil_Fi\Contents\ProjectTile\Skills</Filter>
@@ -99,7 +100,7 @@
       <Filter>Source\Evil_Fi\Contents\ProjectTile\Skills</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Controller">
-      <UniqueIdentifier>{3D8EAB0A-A254-4128-A499-830BC047DD56}</UniqueIdentifier>
+      <UniqueIdentifier>{719C739B-65ED-454D-A8A0-4D0E4C8664F2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Controller\BasePlayerController.cpp">
       <Filter>Source\Evil_Fi\Controller</Filter>
@@ -108,13 +109,13 @@
       <Filter>Source\Evil_Fi\Controller</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\DesignPattern">
-      <UniqueIdentifier>{FEEE998C-3818-4C2B-BD20-4F77448017B0}</UniqueIdentifier>
+      <UniqueIdentifier>{F9C1B74E-13A3-48A6-878D-97DA68FA7D47}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Evil_Fi\DesignPattern\Singleton.h">
       <Filter>Source\Evil_Fi\DesignPattern</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\GameInstance">
-      <UniqueIdentifier>{51380E47-4440-4D5A-BC98-09FC6AD3A5BE}</UniqueIdentifier>
+      <UniqueIdentifier>{32EDD349-03DD-4932-ABEC-B88D0494649F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\GameInstance\BaseGameInstance.cpp">
       <Filter>Source\Evil_Fi\GameInstance</Filter>
@@ -123,7 +124,7 @@
       <Filter>Source\Evil_Fi\GameInstance</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\GameMode">
-      <UniqueIdentifier>{051F5169-EBEE-4A96-AA7E-53CFC136AAFF}</UniqueIdentifier>
+      <UniqueIdentifier>{DD34C094-0E4E-419D-8A31-658C2585BBA0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\GameMode\Evil_FiGameMode.cpp">
       <Filter>Source\Evil_Fi\GameMode</Filter>
@@ -132,7 +133,7 @@
       <Filter>Source\Evil_Fi\GameMode</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\Manager">
-      <UniqueIdentifier>{EAC3E8AE-FCA2-48BA-BE2F-B03DD771CB8F}</UniqueIdentifier>
+      <UniqueIdentifier>{E944CB9B-D852-4EE3-A60E-CDD8C1B1A9B3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\Manager\ActorManager.cpp">
       <Filter>Source\Evil_Fi\Manager</Filter>
@@ -159,7 +160,7 @@
       <Filter>Source\Evil_Fi\Manager</Filter>
     </ClInclude>
     <Filter Include="Source\Evil_Fi\UI">
-      <UniqueIdentifier>{8AA5CC29-D948-4FE7-BE99-979D9745467D}</UniqueIdentifier>
+      <UniqueIdentifier>{0D6AD119-E57C-4EBC-9661-38278BD2FED4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Evil_Fi\UI\BaseUserWidget.cpp">
       <Filter>Source\Evil_Fi\UI</Filter>
