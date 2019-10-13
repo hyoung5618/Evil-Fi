@@ -373,9 +373,17 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Evil_Fi\Evil_Fi.Build.cs" />
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\Evil_Fi\Contents\Character\Monster.cpp" />
     <ClCompile Include="..\..\Source\Evil_Fi\Evil_Fi.cpp" />
     <ClInclude Include="..\..\Source\Evil_Fi\Contents\Character\Monster.h" />
+=======
+    <ClCompile Include="..\..\Source\Evil_Fi\Common\CommonLog.cpp" />
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Item\Data\DT_Item.cpp" />
+    <ClCompile Include="..\..\Source\Evil_Fi\Evil_Fi.cpp" />
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\CommonLog.h" />
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Item\Data\DT_Item.h" />
+>>>>>>> 3ef392bdfd699564d0d4cd0ed980e5568b9258f9
     <ClInclude Include="..\..\Source\Evil_Fi\Evil_Fi.h" />
     <ClInclude Include="..\..\Source\Evil_Fi\Common\GameFunc.h" />
     <ClInclude Include="..\..\Source\Evil_Fi\Common\GameType.h" />
