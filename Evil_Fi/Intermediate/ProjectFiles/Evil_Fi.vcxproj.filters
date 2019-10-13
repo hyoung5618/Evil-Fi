@@ -156,4 +156,28 @@
       <Filter>Source\Evil_Fi\Contents\ProjectTile\Skills</Filter>
     </ClCompile>
   </ItemGroup>
+</Project>  <ItemGroup>
+    <Filter Include="Source\Evil_Fi\Contents\Item">
+      <UniqueIdentifier>{28bacbdb-f88d-423c-a7e2-ebca7b20eb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Evil_Fi\Contents\Item\Data">
+      <UniqueIdentifier>{5b66b3ee-f77b-425b-94b9-2eb04b99c8c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Evil_Fi\Common\CommonLog.cpp">
+      <Filter>Source\Evil_Fi\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Evil_Fi\Contents\Item\Data\DT_Item.cpp">
+      <Filter>Source\Evil_Fi\Contents\Item\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Evil_Fi\Common\CommonLog.h">
+      <Filter>Source\Evil_Fi\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Evil_Fi\Contents\Item\Data\DT_Item.h">
+      <Filter>Source\Evil_Fi\Contents\Item\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
