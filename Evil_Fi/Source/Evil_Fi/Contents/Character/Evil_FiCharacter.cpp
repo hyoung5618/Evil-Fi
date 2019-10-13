@@ -213,8 +213,8 @@ void AEvil_FiCharacter::MouseWheel(float Value)
 {
 	CameraBoom->TargetArmLength += Value * -30.0f;
 
-	if (CameraBoom->TargetArmLength > 600.0f)
-		CameraBoom->TargetArmLength = 600.0f;
-	if (CameraBoom->TargetArmLength < 150.0f)
-		CameraBoom->TargetArmLength = 150.0f;
+	if (CameraBoom->TargetArmLength > 500.0f)
+		CameraBoom->TargetArmLength = 500.0f;
+	if (CameraBoom->TargetArmLength < 0.0f)
+		CameraBoom->TargetArmLength = 0.0f;
 }
